@@ -1,4 +1,5 @@
 import json
+import time
 
 from playwright.sync_api import sync_playwright
 
@@ -17,6 +18,8 @@ ADDRESS_INPUT_SEL = "#map-search-box-search-input"
 SUBMIT_SEL = "button[data-test-id='request-submit']"
 NEXT_SEL = "button[data-test-id^='request-next']"
 BACK_SEL = "button:has-text('戻る')"
+EXISTING_REQUEST_SEL = "button[data-test-id='go-to-existing-request']"
+WAIT_AFTER_ADDRESS_MS = 60 * 1000
 
 
 def launch_browser(playwright):
@@ -165,6 +168,16 @@ def back(root, page):
     return False
 
 
+def wait_for_existing_request(page, timeout_ms):
+    deadline = time.monotonic() + timeout_ms / 1000
+    while time.monotonic() < deadline:
+        button = page.locator(EXISTING_REQUEST_SEL)
+        if button.count():
+            return button.first
+        page.wait_for_timeout(1000)
+    return None
+
+
 def fill_address(root, page, postal_code):
     field = root.locator(ADDRESS_INPUT_SEL)
     field.click()
@@ -172,11 +185,15 @@ def fill_address(root, page, postal_code):
     page.wait_for_timeout(2000)
 
     submit = root.locator(SUBMIT_SEL)
-    if submit.count() and not submit.first.is_disabled():
-        submit.first.click()
-        page.wait_for_timeout(2500)
-        return True
-    return False
+    if not (submit.count() and not submit.first.is_disabled()):
+        return False
+
+    submit.first.click()
+    existing = wait_for_existing_request(page, WAIT_AFTER_ADDRESS_MS)
+    if existing is not None:
+        existing.click()
+    page.wait_for_timeout(WAIT_AFTER_ADDRESS_MS)
+    return True
 
 
 def save_combination(data, name, trail):
