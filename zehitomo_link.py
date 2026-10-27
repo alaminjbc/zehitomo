@@ -7,6 +7,7 @@ BASE_URL = "https://www.zehitomo.com"
 USER_DATA_DIR = "zehitomo-profile"
 SECTIONS_FILE = "sections.json"
 OPTIONS_FILE = "options.json"
+SCRAPE_URLS_FILE = "scrape_urls.json"
 
 POSTAL_CODES = ["182-0004"]
 
@@ -60,6 +61,23 @@ def load_options(path=OPTIONS_FILE):
 def save_options(data, path=OPTIONS_FILE):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+def load_urls(path=SCRAPE_URLS_FILE): 
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return []
+
+
+def save_url(page, path=SCRAPE_URLS_FILE): # url ta save korbo ekta json file e 
+    urls = load_urls(path)
+    if page.url not in urls:
+        urls.append(page.url)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(urls, f, ensure_ascii=False, indent=2)
+    print(f"Saved scraping url: {page.url}")
 
 
 def open_form(page, url):
@@ -189,10 +207,12 @@ def fill_address(root, page, postal_code):
         return False
 
     submit.first.click()
-    existing = wait_for_existing_request(page, WAIT_AFTER_ADDRESS_MS)
+    existing = wait_for_existing_request(page, WAIT_AFTER_ADDRESS_MS) # exsting button cole ashle oikhane click kore jabo
     if existing is not None:
         existing.click()
-    page.wait_for_timeout(WAIT_AFTER_ADDRESS_MS)
+    
+    page.wait_for_timeout(WAIT_AFTER_ADDRESS_MS) # 1 min wait korlam
+    save_url(page)
     return True
 
 
