@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(python -m py_compile from_link.py)",
+      "Shell(COMMANDCODE_SCRATCHPAD=/private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad python /private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad/probe4.py 2 >& 1)",
+      "Shell(COMMANDCODE_SCRATCHPAD=/private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad python /private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad/probe5.py 2 >& 1)",
+      "Shell(COMMANDCODE_SCRATCHPAD=/private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad python /private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad/probe6.py 2 >& 1)",
+      "Shell(COMMANDCODE_SCRATCHPAD=/private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad python /private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad/probe7.py 2 >& 1)",
+      "Shell(COMMANDCODE_SCRATCHPAD=/private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad python /private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad/probe8.py 2 >& 1)",
+      "Shell(COMMANDCODE_SCRATCHPAD=/private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad python /private/tmp/commandcode-501/-Users-alamin-zehitomo/e5091181-d612-4211-bd0d-66733f37902a/scratchpad/probe9.py 2 >& 1)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
