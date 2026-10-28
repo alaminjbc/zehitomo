@@ -300,7 +300,7 @@ def fill_address(root, page, postal_code):
     
     page.wait_for_timeout(WAIT_AFTER_ADDRESS_MS) # 1 min wait korlam
     save_url(page)
-    append_csv(scrape_contractors(page))
+    append_csv(scrape_contractors(page)) # Scraping page e gelam
     return True
 
 
