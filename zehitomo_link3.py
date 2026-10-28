@@ -1,6 +1,7 @@
 import csv
 import json
 import os
+import re
 import time
 
 from playwright.sync_api import sync_playwright
@@ -28,7 +29,11 @@ APPLY_LIST_SEL = "ul[data-test-id='apply-list'] li"
 PRO_NAME_SEL = "[class*='header-pro-name']"
 NAME_GROUP_SEL = "[class*='avatar-icon-name-group']"
 LOCATION_SEL = "p[class*='ProProfileHeader-module__location']"
+CHAT_TEXT_SEL = ".chat-message-content-text"
 CSV_FILE = "contractors.csv"
+
+EMAIL_RE = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}")
+PHONE_RE = re.compile(r"0\d{1,4}[-\s]?\d{1,4}[-\s]?\d{3,4}")
 
 
 def launch_browser(playwright):
@@ -106,6 +111,15 @@ def get_text(page, selector):
     return ""
 
 
+def extract_contact(text):
+    email = EMAIL_RE.search(text)
+    phone = PHONE_RE.search(text)
+    return (
+        email.group(0) if email else "",
+        phone.group(0) if phone else "",
+    )
+
+
 def scrape_contractors(page):
     url = page.url
     try:
@@ -136,6 +150,14 @@ def scrape_contractors(page):
 
         name = get_text(page, PRO_NAME_SEL)
 
+        message_text = ""
+        try:
+            page.wait_for_selector(CHAT_TEXT_SEL, timeout=8000)
+            message_text = " ".join(page.locator(CHAT_TEXT_SEL).all_inner_texts())
+        except Exception:
+            pass
+        email, phone = extract_contact(message_text)
+
         group = page.locator(NAME_GROUP_SEL).first
         if group.count():
             group.click()
@@ -145,8 +167,8 @@ def scrape_contractors(page):
                 pass
 
         location = get_text(page, LOCATION_SEL)
-        rows.append((name, location))
-        print(f"    {index + 1}/{total}: {name} | {location}")
+        rows.append((name, location, email, phone))
+        print(f"    {index + 1}/{total}: {name} | {location} | {email} | {phone}")
 
     page.goto(url, wait_until="domcontentloaded")
     return rows
@@ -161,7 +183,7 @@ def append_csv(rows, path=CSV_FILE):
     else:
         with open(path, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.writer(f)
-            writer.writerow(["name", "location"])
+            writer.writerow(["name", "location", "email", "phone"])
             writer.writerows(rows)
 
 
