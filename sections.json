@@ -3,326 +3,6 @@
     "url": "/home",
     "sections": [
       {
-        "name": "リフォーム",
-        "url": "/home/reform",
-        "services": [
-          {
-            "name": "お風呂・浴室の修理・リフォーム",
-            "url": "/home/reform/bathroom-renovation/bathroom-reform"
-          },
-          {
-            "name": "洗面化粧台の修理・リフォーム",
-            "url": "/home/reform/bathroom-renovation/bathroom-sink-reform-specialist"
-          },
-          {
-            "name": "テラス・中庭の修理・工事",
-            "url": "/home/reform/yard-gardening/deck-patio-assembler"
-          },
-          {
-            "name": "リノベーション・リフォーム",
-            "url": "/home/reform/theme/design-renovation-specialist"
-          },
-          {
-            "name": "フェンス・門扉・塀の修理・新設",
-            "url": "/home/reform/exterior/gate-fence-remodeling"
-          },
-          {
-            "name": "キッチンの修理・リフォーム",
-            "url": "/home/reform/kitchen/kitchen-remodeling"
-          },
-          {
-            "name": "ガレージ・カーポートの修理・新設",
-            "url": "/home/reform/parking-garage/garage-carport-professional"
-          },
-          {
-            "name": "窓ガラスフィルム施工",
-            "url": "/home/reform/window-sash/window-film-application"
-          },
-          {
-            "name": "外構・エクステリアの修理・工事",
-            "url": "/home/reform/exterior/home-exterior-construction"
-          },
-          {
-            "name": "砕石・砂利",
-            "url": "/home/reform/exterior/crushedstonegravel"
-          },
-          {
-            "name": "タイル張り工事",
-            "url": "/home/reform/tile/tile-installation"
-          },
-          {
-            "name": "庭木の剪定",
-            "url": "/home/reform/yard-gardening/gardener"
-          },
-          {
-            "name": "ドア・引き戸のリフォーム",
-            "url": "/home/reform/entrance/front-door-remodeling"
-          },
-          {
-            "name": "びょうぶ張り",
-            "url": "/home/reform/japanese-room/byobuscreenrepair"
-          },
-          {
-            "name": "住宅リフォーム",
-            "url": "/home/reform/theme/home-reform-specialist"
-          },
-          {
-            "name": "トイレの修理・リフォーム",
-            "url": "/home/reform/toilet/toilet-reform-specialist"
-          },
-          {
-            "name": "手すりの取り付け・設置工事",
-            "url": "/home/reform/care-reform/hand-rail-installation"
-          },
-          {
-            "name": "和室から洋室へリフォーム",
-            "url": "/home/reform/theme/japanese-to-western-room-reform-specialist"
-          },
-          {
-            "name": "ブロック工事",
-            "url": "/home/reform/exterior/blockconstruction"
-          },
-          {
-            "name": "トタン屋根修理・工事",
-            "url": "/home/reform/exterior/metalroofconstruction"
-          },
-          {
-            "name": "リビング・居間リフォーム",
-            "url": "/home/reform/living-room/living-space-reform"
-          },
-          {
-            "name": "窓・サッシのリフォーム",
-            "url": "/home/reform/window-sash/window-remodeling"
-          },
-          {
-            "name": "はつり工事",
-            "url": "/home/reform/exterior/chippingconstruction"
-          },
-          {
-            "name": "フローリング・カーペット・クッションフロア張替え/リフォーム",
-            "url": "/home/reform/floor/flooring-reform"
-          },
-          {
-            "name": "介護・バリアフリーリフォーム",
-            "url": "/home/reform/care-reform/accessibilityremodeling"
-          },
-          {
-            "name": "壁紙の張替え・補修",
-            "url": "/home/reform/wall/wallpaper-wallcloth-reform-specialist"
-          },
-          {
-            "name": "庭・テラスの修理・工事",
-            "url": "/home/reform/yard-gardening/garden-space-remodeling"
-          },
-          {
-            "name": "屋根の修理・工事・リフォーム",
-            "url": "/home/reform/exterior/roofconstruction"
-          },
-          {
-            "name": "石垣工事",
-            "url": "/home/reform/exterior/stonewallconstruction"
-          },
-          {
-            "name": "草刈り・芝刈り",
-            "url": "/home/reform/yard-gardening/lawn-mowing"
-          },
-          {
-            "name": "タイル張替え・補修",
-            "url": "/home/reform/tile/tile-reform"
-          },
-          {
-            "name": "外壁の修理・工事",
-            "url": "/home/reform/exterior/exterior-wall-renovator"
-          },
-          {
-            "name": "マンションの修理・リフォーム",
-            "url": "/home/reform/theme/pre-owned-condominium-renovator"
-          },
-          {
-            "name": "水回りの修理・リフォーム",
-            "url": "/home/reform/theme/waterworks-reform"
-          }
-        ]
-      },
-      {
-        "name": "修理・交換・取り付け",
-        "url": "/home/repair-exchange-set",
-        "services": [
-          {
-            "name": "ブラインド・ロールスクリーン・ロールカーテンの交換/取り付け",
-            "url": "/home/repair-exchange-set/window-sash-repair/blind-screen-installation"
-          },
-          {
-            "name": "エアコンの交換・取り付け",
-            "url": "/home/repair-exchange-set/indoor-installation/air-conditioner-installation"
-          },
-          {
-            "name": "電気屋・電気工事",
-            "url": "/home/repair-exchange-set/electrical/electrical-construction"
-          },
-          {
-            "name": "蛇口交換・修理",
-            "url": "/home/repair-exchange-set/kitchen-repair/faucet-replacement"
-          },
-          {
-            "name": "浴室換気扇交換",
-            "url": "/home/repair-exchange-set/bathroom/bath-ventilator-installation"
-          },
-          {
-            "name": "高所の電球交換",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/high-ceiling-light-bulb-replacement"
-          },
-          {
-            "name": "ふすま張替え",
-            "url": "/home/repair-exchange-set/japanese-room-repair/japanese-closet-door-replacement"
-          },
-          {
-            "name": "IHクッキングヒーターの交換・取り付け",
-            "url": "/home/repair-exchange-set/kitchen-repair/ih-cooking-heater-installation"
-          },
-          {
-            "name": "ラティスの修理・新設",
-            "url": "/home/repair-exchange-set/yard-gardening-repair/lattice-installation"
-          },
-          {
-            "name": "家具修理",
-            "url": "/home/repair-exchange-set/furniture/furniture-upholstery-repair"
-          },
-          {
-            "name": "ウォシュレット交換・取り付け",
-            "url": "/home/repair-exchange-set/toilet-repair/bidet-installation"
-          },
-          {
-            "name": "鍵（補助鍵）の取り付け",
-            "url": "/home/repair-exchange-set/entrance-repair/locksmith"
-          },
-          {
-            "name": "スイッチ・コンセントの交換/修理",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/outlet-switch-installation-repair"
-          },
-          {
-            "name": "ドアノブの修理・交換",
-            "url": "/home/repair-exchange-set/entrance-repair/door-knob-replacement"
-          },
-          {
-            "name": "家具職人・オーダー家具",
-            "url": "/home/repair-exchange-set/furniture/furniture-carpenter"
-          },
-          {
-            "name": "雨樋の修理・工事",
-            "url": "/home/repair-exchange-set/exterior-repair/gutter-repair"
-          },
-          {
-            "name": "アンテナの交換・取り付け",
-            "url": "/home/repair-exchange-set/exterior-repair/antenna-installation"
-          },
-          {
-            "name": "センサーライトの交換・取り付け",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/sensor-light-installation"
-          },
-          {
-            "name": "網戸の張り替え・修理",
-            "url": "/home/repair-exchange-set/window-sash-repair/screen-door-replacement"
-          },
-          {
-            "name": "給湯器の修理・交換・取り付け",
-            "url": "/home/repair-exchange-set/bathroom/boiler-replacement"
-          },
-          {
-            "name": "エアコン修理",
-            "url": "/home/repair-exchange-set/air-conditioner/air-conditioner-repair"
-          },
-          {
-            "name": "音響設備・技術",
-            "url": "/home/repair-exchange-set/indoor-installation/audioequipmentspecialist"
-          },
-          {
-            "name": "レンジフード交換・取り付け",
-            "url": "/home/repair-exchange-set/kitchen-repair/kitchen-ventilator-installation"
-          },
-          {
-            "name": "畳張替え・畳表替え",
-            "url": "/home/repair-exchange-set/japanese-room-repair/tatami-replacement"
-          },
-          {
-            "name": "障子張替え",
-            "url": "/home/repair-exchange-set/japanese-room-repair/shoji-door-replacement"
-          },
-          {
-            "name": "水漏れ修理",
-            "url": "/home/repair-exchange-set/water-leak-water-trouble/plumbing-construction"
-          },
-          {
-            "name": "トイレ換気扇の交換・取り付け",
-            "url": "/home/repair-exchange-set/toilet-repair/toilet-ventilator-installation"
-          },
-          {
-            "name": "防犯カメラ設置",
-            "url": "/home/repair-exchange-set/crime-prevention/security-camera-installation"
-          },
-          {
-            "name": "窓の修理・交換",
-            "url": "/home/repair-exchange-set/window-sash-repair/windowrepair"
-          },
-          {
-            "name": "コンセント増設",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/outlet-switch-addition"
-          },
-          {
-            "name": "イルミネーション設置",
-            "url": "/home/repair-exchange-set/exterior-repair/neonconstruction"
-          },
-          {
-            "name": "合鍵・スペアキー",
-            "url": "/home/repair-exchange-set/crime-prevention/sparekeyproduction"
-          },
-          {
-            "name": "電話工事",
-            "url": "/home/repair-exchange-set/indoor-installation/telephoneconstruction"
-          },
-          {
-            "name": "水槽設備工事",
-            "url": "/home/repair-exchange-set/indoor-installation/watertankconstruction"
-          },
-          {
-            "name": "インターホン・ドアホンの交換・取り付け",
-            "url": "/home/repair-exchange-set/entrance-repair/intercom-installation"
-          },
-          {
-            "name": "照明・シーリング・ダウンライトの交換・取り付け",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/light-installation"
-          },
-          {
-            "name": "ポンプの交換・取り付け",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/pumpingdeviceinstallation"
-          },
-          {
-            "name": "太陽光発電・ソーラーパネルの設置",
-            "url": "/home/repair-exchange-set/outdoor-installation/solar-panel-roofing-fence-remodeling"
-          },
-          {
-            "name": "蛍光灯からLEDへ交換",
-            "url": "/home/repair-exchange-set/switch-plug-lighting/tube-lighting-replacement"
-          },
-          {
-            "name": "害虫駆除",
-            "url": "/home/repair-exchange-set/extermination/pest-control"
-          },
-          {
-            "name": "井戸ポンプ工事",
-            "url": "/home/repair-exchange-set/exterior-repair/wellconstruction"
-          },
-          {
-            "name": "エコキュートの修理・交換・取り付け",
-            "url": "/home/repair-exchange-set/bathroom/ecocute-contractor"
-          },
-          {
-            "name": "蓄電池の交換・修理・設置",
-            "url": "/home/repair-exchange-set/outdoor-installation/storagebattery-contractor"
-          }
-        ]
-      },
-      {
         "name": "クリーニング",
         "url": "/home/cleaning",
         "services": [
@@ -331,16 +11,16 @@
             "url": "/home/cleaning/electronics-cleaning/air-conditioner-cleaner"
           },
           {
+            "name": "フロアクリーニング",
+            "url": "/home/cleaning/floor-cleaning/floor-cleaner"
+          },
+          {
             "name": "水回りクリーニング",
             "url": "/home/cleaning/plumbing/kitchen-and-bathroom-cleaning"
           },
           {
             "name": "民泊清掃",
             "url": "/home/cleaning/other-cleaning/airbnb-cleaner"
-          },
-          {
-            "name": "フロアクリーニング",
-            "url": "/home/cleaning/floor-cleaning/floor-cleaner"
           },
           {
             "name": "グリストラップ清掃",
@@ -409,16 +89,336 @@
         ]
       },
       {
+        "name": "リフォーム",
+        "url": "/home/reform",
+        "services": [
+          {
+            "name": "お風呂・浴室の修理・リフォーム",
+            "url": "/home/reform/bathroom-renovation/bathroom-reform"
+          },
+          {
+            "name": "洗面化粧台の修理・リフォーム",
+            "url": "/home/reform/bathroom-renovation/bathroom-sink-reform-specialist"
+          },
+          {
+            "name": "テラス・中庭の修理・工事",
+            "url": "/home/reform/yard-gardening/deck-patio-assembler"
+          },
+          {
+            "name": "リノベーション・リフォーム",
+            "url": "/home/reform/theme/design-renovation-specialist"
+          },
+          {
+            "name": "フェンス・門扉・塀の修理・新設",
+            "url": "/home/reform/exterior/gate-fence-remodeling"
+          },
+          {
+            "name": "キッチンの修理・リフォーム",
+            "url": "/home/reform/kitchen/kitchen-remodeling"
+          },
+          {
+            "name": "ガレージ・カーポートの修理・新設",
+            "url": "/home/reform/parking-garage/garage-carport-professional"
+          },
+          {
+            "name": "窓ガラスフィルム施工",
+            "url": "/home/reform/window-sash/window-film-application"
+          },
+          {
+            "name": "砕石・砂利",
+            "url": "/home/reform/exterior/crushedstonegravel"
+          },
+          {
+            "name": "外構・エクステリアの修理・工事",
+            "url": "/home/reform/exterior/home-exterior-construction"
+          },
+          {
+            "name": "タイル張り工事",
+            "url": "/home/reform/tile/tile-installation"
+          },
+          {
+            "name": "庭木の剪定",
+            "url": "/home/reform/yard-gardening/gardener"
+          },
+          {
+            "name": "ドア・引き戸のリフォーム",
+            "url": "/home/reform/entrance/front-door-remodeling"
+          },
+          {
+            "name": "住宅リフォーム",
+            "url": "/home/reform/theme/home-reform-specialist"
+          },
+          {
+            "name": "トイレの修理・リフォーム",
+            "url": "/home/reform/toilet/toilet-reform-specialist"
+          },
+          {
+            "name": "びょうぶ張り",
+            "url": "/home/reform/japanese-room/byobuscreenrepair"
+          },
+          {
+            "name": "手すりの取り付け・設置工事",
+            "url": "/home/reform/care-reform/hand-rail-installation"
+          },
+          {
+            "name": "和室から洋室へリフォーム",
+            "url": "/home/reform/theme/japanese-to-western-room-reform-specialist"
+          },
+          {
+            "name": "リビング・居間リフォーム",
+            "url": "/home/reform/living-room/living-space-reform"
+          },
+          {
+            "name": "窓・サッシのリフォーム",
+            "url": "/home/reform/window-sash/window-remodeling"
+          },
+          {
+            "name": "はつり工事",
+            "url": "/home/reform/exterior/chippingconstruction"
+          },
+          {
+            "name": "フローリング・カーペット・クッションフロア張替え/リフォーム",
+            "url": "/home/reform/floor/flooring-reform"
+          },
+          {
+            "name": "介護・バリアフリーリフォーム",
+            "url": "/home/reform/care-reform/accessibilityremodeling"
+          },
+          {
+            "name": "壁紙の張替え・補修",
+            "url": "/home/reform/wall/wallpaper-wallcloth-reform-specialist"
+          },
+          {
+            "name": "庭・テラスの修理・工事",
+            "url": "/home/reform/yard-gardening/garden-space-remodeling"
+          },
+          {
+            "name": "屋根の修理・工事・リフォーム",
+            "url": "/home/reform/exterior/roofconstruction"
+          },
+          {
+            "name": "石垣工事",
+            "url": "/home/reform/exterior/stonewallconstruction"
+          },
+          {
+            "name": "草刈り・芝刈り",
+            "url": "/home/reform/yard-gardening/lawn-mowing"
+          },
+          {
+            "name": "タイル張替え・補修",
+            "url": "/home/reform/tile/tile-reform"
+          },
+          {
+            "name": "ブロック工事",
+            "url": "/home/reform/exterior/blockconstruction"
+          },
+          {
+            "name": "トタン屋根修理・工事",
+            "url": "/home/reform/exterior/metalroofconstruction"
+          },
+          {
+            "name": "外壁の修理・工事",
+            "url": "/home/reform/exterior/exterior-wall-renovator"
+          },
+          {
+            "name": "マンションの修理・リフォーム",
+            "url": "/home/reform/theme/pre-owned-condominium-renovator"
+          },
+          {
+            "name": "水回りの修理・リフォーム",
+            "url": "/home/reform/theme/waterworks-reform"
+          }
+        ]
+      },
+      {
+        "name": "修理・交換・取り付け",
+        "url": "/home/repair-exchange-set",
+        "services": [
+          {
+            "name": "ブラインド・ロールスクリーン・ロールカーテンの交換/取り付け",
+            "url": "/home/repair-exchange-set/window-sash-repair/blind-screen-installation"
+          },
+          {
+            "name": "電気屋・電気工事",
+            "url": "/home/repair-exchange-set/electrical/electrical-construction"
+          },
+          {
+            "name": "エアコンの交換・取り付け",
+            "url": "/home/repair-exchange-set/indoor-installation/air-conditioner-installation"
+          },
+          {
+            "name": "蛇口交換・修理",
+            "url": "/home/repair-exchange-set/kitchen-repair/faucet-replacement"
+          },
+          {
+            "name": "浴室換気扇交換",
+            "url": "/home/repair-exchange-set/bathroom/bath-ventilator-installation"
+          },
+          {
+            "name": "高所の電球交換",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/high-ceiling-light-bulb-replacement"
+          },
+          {
+            "name": "IHクッキングヒーターの交換・取り付け",
+            "url": "/home/repair-exchange-set/kitchen-repair/ih-cooking-heater-installation"
+          },
+          {
+            "name": "ラティスの修理・新設",
+            "url": "/home/repair-exchange-set/yard-gardening-repair/lattice-installation"
+          },
+          {
+            "name": "ふすま張替え",
+            "url": "/home/repair-exchange-set/japanese-room-repair/japanese-closet-door-replacement"
+          },
+          {
+            "name": "家具修理",
+            "url": "/home/repair-exchange-set/furniture/furniture-upholstery-repair"
+          },
+          {
+            "name": "ウォシュレット交換・取り付け",
+            "url": "/home/repair-exchange-set/toilet-repair/bidet-installation"
+          },
+          {
+            "name": "鍵（補助鍵）の取り付け",
+            "url": "/home/repair-exchange-set/entrance-repair/locksmith"
+          },
+          {
+            "name": "スイッチ・コンセントの交換/修理",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/outlet-switch-installation-repair"
+          },
+          {
+            "name": "ドアノブの修理・交換",
+            "url": "/home/repair-exchange-set/entrance-repair/door-knob-replacement"
+          },
+          {
+            "name": "家具職人・オーダー家具",
+            "url": "/home/repair-exchange-set/furniture/furniture-carpenter"
+          },
+          {
+            "name": "雨樋の修理・工事",
+            "url": "/home/repair-exchange-set/exterior-repair/gutter-repair"
+          },
+          {
+            "name": "アンテナの交換・取り付け",
+            "url": "/home/repair-exchange-set/exterior-repair/antenna-installation"
+          },
+          {
+            "name": "センサーライトの交換・取り付け",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/sensor-light-installation"
+          },
+          {
+            "name": "給湯器の修理・交換・取り付け",
+            "url": "/home/repair-exchange-set/bathroom/boiler-replacement"
+          },
+          {
+            "name": "網戸の張り替え・修理",
+            "url": "/home/repair-exchange-set/window-sash-repair/screen-door-replacement"
+          },
+          {
+            "name": "エアコン修理",
+            "url": "/home/repair-exchange-set/air-conditioner/air-conditioner-repair"
+          },
+          {
+            "name": "音響設備・技術",
+            "url": "/home/repair-exchange-set/indoor-installation/audioequipmentspecialist"
+          },
+          {
+            "name": "レンジフード交換・取り付け",
+            "url": "/home/repair-exchange-set/kitchen-repair/kitchen-ventilator-installation"
+          },
+          {
+            "name": "畳張替え・畳表替え",
+            "url": "/home/repair-exchange-set/japanese-room-repair/tatami-replacement"
+          },
+          {
+            "name": "障子張替え",
+            "url": "/home/repair-exchange-set/japanese-room-repair/shoji-door-replacement"
+          },
+          {
+            "name": "水漏れ修理",
+            "url": "/home/repair-exchange-set/water-leak-water-trouble/plumbing-construction"
+          },
+          {
+            "name": "トイレ換気扇の交換・取り付け",
+            "url": "/home/repair-exchange-set/toilet-repair/toilet-ventilator-installation"
+          },
+          {
+            "name": "防犯カメラ設置",
+            "url": "/home/repair-exchange-set/crime-prevention/security-camera-installation"
+          },
+          {
+            "name": "窓の修理・交換",
+            "url": "/home/repair-exchange-set/window-sash-repair/windowrepair"
+          },
+          {
+            "name": "イルミネーション設置",
+            "url": "/home/repair-exchange-set/exterior-repair/neonconstruction"
+          },
+          {
+            "name": "合鍵・スペアキー",
+            "url": "/home/repair-exchange-set/crime-prevention/sparekeyproduction"
+          },
+          {
+            "name": "電話工事",
+            "url": "/home/repair-exchange-set/indoor-installation/telephoneconstruction"
+          },
+          {
+            "name": "水槽設備工事",
+            "url": "/home/repair-exchange-set/indoor-installation/watertankconstruction"
+          },
+          {
+            "name": "インターホン・ドアホンの交換・取り付け",
+            "url": "/home/repair-exchange-set/entrance-repair/intercom-installation"
+          },
+          {
+            "name": "照明・シーリング・ダウンライトの交換・取り付け",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/light-installation"
+          },
+          {
+            "name": "ポンプの交換・取り付け",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/pumpingdeviceinstallation"
+          },
+          {
+            "name": "太陽光発電・ソーラーパネルの設置",
+            "url": "/home/repair-exchange-set/outdoor-installation/solar-panel-roofing-fence-remodeling"
+          },
+          {
+            "name": "蛍光灯からLEDへ交換",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/tube-lighting-replacement"
+          },
+          {
+            "name": "害虫駆除",
+            "url": "/home/repair-exchange-set/extermination/pest-control"
+          },
+          {
+            "name": "井戸ポンプ工事",
+            "url": "/home/repair-exchange-set/exterior-repair/wellconstruction"
+          },
+          {
+            "name": "コンセント増設",
+            "url": "/home/repair-exchange-set/switch-plug-lighting/outlet-switch-addition"
+          },
+          {
+            "name": "エコキュートの修理・交換・取り付け",
+            "url": "/home/repair-exchange-set/bathroom/ecocute-contractor"
+          },
+          {
+            "name": "蓄電池の交換・修理・設置",
+            "url": "/home/repair-exchange-set/outdoor-installation/storagebattery-contractor"
+          }
+        ]
+      },
+      {
         "name": "大規模工事",
         "url": "/home/large-scale-work",
         "services": [
           {
-            "name": "工務店・施工会社",
-            "url": "/home/large-scale-work/business-home/civil-construction-specialist"
-          },
-          {
             "name": "インテリアデザイナー",
             "url": "/home/large-scale-work/business-home/interior-designer"
+          },
+          {
+            "name": "工務店・施工会社",
+            "url": "/home/large-scale-work/business-home/civil-construction-specialist"
           },
           {
             "name": "外壁塗装（補修・工事）",
@@ -489,12 +489,12 @@
             "url": "/home/large-scale-work/paintings/photocatalyticpaintindustry"
           },
           {
-            "name": "左官業",
-            "url": "/home/large-scale-work/business-home/plasterer"
-          },
-          {
             "name": "家具塗装・塗り替え",
             "url": "/home/large-scale-work/paintings/furniturepainting"
+          },
+          {
+            "name": "左官業",
+            "url": "/home/large-scale-work/business-home/plasterer"
           },
           {
             "name": "鉄骨工事",
@@ -516,6 +516,100 @@
     "url": "/learning",
     "sections": [
       {
+        "name": "ダンス",
+        "url": "/learning/dance",
+        "services": [
+          {
+            "name": "ブレイクダンスレッスン",
+            "url": "/learning/dance/breakdance/breakdance-instructor"
+          },
+          {
+            "name": "アルゼンチンタンゴダンスレッスン",
+            "url": "/learning/dance/tango/argentinetango-instructor"
+          },
+          {
+            "name": "ジャズダンスレッスン",
+            "url": "/learning/dance/jazz-dance/jazzdance-instructor"
+          },
+          {
+            "name": "ストリートダンスレッスン",
+            "url": "/learning/dance/street/streetdance-instructor"
+          },
+          {
+            "name": "バレエレッスン",
+            "url": "/learning/dance/ballet/ballet-instructor"
+          },
+          {
+            "name": "バーレスクダンスレッスン",
+            "url": "/learning/dance/burlesque/burlesquedance-instructor"
+          },
+          {
+            "name": "タップダンスレッスン",
+            "url": "/learning/dance/tap-dance/tapdance-instructor"
+          },
+          {
+            "name": "ロックダンスレッスン",
+            "url": "/learning/dance/locking/lockingdance-instructor"
+          },
+          {
+            "name": "社交ダンスレッスン",
+            "url": "/learning/dance/ballroom-dance/ballroomdance-instructor"
+          },
+          {
+            "name": "サルサダンスレッスン",
+            "url": "/learning/dance/salsa/salsadance-instructor"
+          },
+          {
+            "name": "レゲエダンスレッスン",
+            "url": "/learning/dance/reggae/reggaedance-instructor"
+          },
+          {
+            "name": "フラダンスレッスン",
+            "url": "/learning/dance/hula/hula-instructor"
+          },
+          {
+            "name": "ソウルダンスレッスン",
+            "url": "/learning/dance/soul/souldance-instructor"
+          },
+          {
+            "name": "チアダンス・チアリーディングレッスン",
+            "url": "/learning/dance/cheerleading/cheerdance-instructor"
+          },
+          {
+            "name": "タヒチアンダンスレッスン",
+            "url": "/learning/dance/tahitian/tahitiandance-instructor"
+          },
+          {
+            "name": "ポールダンスレッスン",
+            "url": "/learning/dance/pole-dance/poledance-instructor"
+          },
+          {
+            "name": "コンテンポラリーダンスレッスン",
+            "url": "/learning/dance/contemporary-dance/contemporarydance-instructor"
+          },
+          {
+            "name": "ヒップホップダンスレッスン",
+            "url": "/learning/dance/hiphop/hip-hop-dance-instructor"
+          },
+          {
+            "name": "フラメンコダンスレッスン",
+            "url": "/learning/dance/flamenco/flamenco-instructor"
+          },
+          {
+            "name": "ハウスダンスレッスン",
+            "url": "/learning/dance/house/housedance-instructor"
+          },
+          {
+            "name": "ベリーダンスレッスン",
+            "url": "/learning/dance/belly-dance/bellydance-instructor"
+          },
+          {
+            "name": "日本舞踊(日舞)レッスン",
+            "url": "/learning/dance/japanese-dance/japanesedance-instructor"
+          }
+        ]
+      },
+      {
         "name": "生活・文化",
         "url": "/learning/life-and-culture",
         "services": [
@@ -524,20 +618,20 @@
             "url": "/learning/life-and-culture/cooking/bento-cooking-instructor"
           },
           {
-            "name": "ケーキレッスン",
-            "url": "/learning/life-and-culture/baking-and-dessert/cake-making-instructor"
-          },
-          {
             "name": "フランス料理レッスン",
             "url": "/learning/life-and-culture/cooking/french-cuisine-cooking-instructor"
           },
           {
-            "name": "キャンドルレッスン",
-            "url": "/learning/life-and-culture/handicraft/candles-instructor"
+            "name": "ケーキレッスン",
+            "url": "/learning/life-and-culture/baking-and-dessert/cake-making-instructor"
           },
           {
             "name": "フラワーアレンジメントレッスン",
             "url": "/learning/life-and-culture/handicraft/flower-arrangement-instructor"
+          },
+          {
+            "name": "キャンドルレッスン",
+            "url": "/learning/life-and-culture/handicraft/candles-instructor"
           },
           {
             "name": "中華料理・中国料理レッスン",
@@ -620,12 +714,12 @@
             "url": "/learning/life-and-culture/cooking/athlete-cooking-instructor"
           },
           {
-            "name": "うどん・そばレッスン",
-            "url": "/learning/life-and-culture/cooking/udon-soba-making-instructor"
-          },
-          {
             "name": "健康・ダイエット料理レッスン",
             "url": "/learning/life-and-culture/cooking/health-diet-cooking-instructor"
+          },
+          {
+            "name": "うどん・そばレッスン",
+            "url": "/learning/life-and-culture/cooking/udon-soba-making-instructor"
           },
           {
             "name": "イタリア料理レッスン",
@@ -636,124 +730,16 @@
             "url": "/learning/life-and-culture/handicraft/ikebana-instructor"
           },
           {
+            "name": "パッチワーク・キルトレッスン",
+            "url": "/learning/life-and-culture/handicraft/patchwork-quilting-instructor"
+          },
+          {
             "name": "和菓子レッスン",
             "url": "/learning/life-and-culture/baking-and-dessert/japanese-sweets-cooking-instructor"
           },
           {
             "name": "アクセサリー・ジュエリーレッスン",
             "url": "/learning/life-and-culture/handicraft/jewel-craft-instructor"
-          },
-          {
-            "name": "パッチワーク・キルトレッスン",
-            "url": "/learning/life-and-culture/handicraft/patchwork-quilting-instructor"
-          }
-        ]
-      },
-      {
-        "name": "ダンス",
-        "url": "/learning/dance",
-        "services": [
-          {
-            "name": "ブレイクダンスレッスン",
-            "url": "/learning/dance/breakdance/breakdance-instructor"
-          },
-          {
-            "name": "ロックダンスレッスン",
-            "url": "/learning/dance/locking/lockingdance-instructor"
-          },
-          {
-            "name": "アルゼンチンタンゴダンスレッスン",
-            "url": "/learning/dance/tango/argentinetango-instructor"
-          },
-          {
-            "name": "バレエレッスン",
-            "url": "/learning/dance/ballet/ballet-instructor"
-          },
-          {
-            "name": "バーレスクダンスレッスン",
-            "url": "/learning/dance/burlesque/burlesquedance-instructor"
-          },
-          {
-            "name": "ジャズダンスレッスン",
-            "url": "/learning/dance/jazz-dance/jazzdance-instructor"
-          },
-          {
-            "name": "社交ダンスレッスン",
-            "url": "/learning/dance/ballroom-dance/ballroomdance-instructor"
-          },
-          {
-            "name": "レゲエダンスレッスン",
-            "url": "/learning/dance/reggae/reggaedance-instructor"
-          },
-          {
-            "name": "サルサダンスレッスン",
-            "url": "/learning/dance/salsa/salsadance-instructor"
-          },
-          {
-            "name": "ストリートダンスレッスン",
-            "url": "/learning/dance/street/streetdance-instructor"
-          },
-          {
-            "name": "タップダンスレッスン",
-            "url": "/learning/dance/tap-dance/tapdance-instructor"
-          },
-          {
-            "name": "フラダンスレッスン",
-            "url": "/learning/dance/hula/hula-instructor"
-          },
-          {
-            "name": "ソウルダンスレッスン",
-            "url": "/learning/dance/soul/souldance-instructor"
-          },
-          {
-            "name": "タヒチアンダンスレッスン",
-            "url": "/learning/dance/tahitian/tahitiandance-instructor"
-          },
-          {
-            "name": "チアダンス・チアリーディングレッスン",
-            "url": "/learning/dance/cheerleading/cheerdance-instructor"
-          },
-          {
-            "name": "ポールダンスレッスン",
-            "url": "/learning/dance/pole-dance/poledance-instructor"
-          },
-          {
-            "name": "ヒップホップダンスレッスン",
-            "url": "/learning/dance/hiphop/hip-hop-dance-instructor"
-          },
-          {
-            "name": "コンテンポラリーダンスレッスン",
-            "url": "/learning/dance/contemporary-dance/contemporarydance-instructor"
-          },
-          {
-            "name": "フラメンコダンスレッスン",
-            "url": "/learning/dance/flamenco/flamenco-instructor"
-          },
-          {
-            "name": "ハウスダンスレッスン",
-            "url": "/learning/dance/house/housedance-instructor"
-          },
-          {
-            "name": "ベリーダンスレッスン",
-            "url": "/learning/dance/belly-dance/bellydance-instructor"
-          },
-          {
-            "name": "日本舞踊(日舞)レッスン",
-            "url": "/learning/dance/japanese-dance/japanesedance-instructor"
-          }
-        ]
-      },
-      {
-        "name": "スポーツ",
-        "url": "/learning/sports",
-        "services": [
-          {
-            "name": "テニスレッスン",
-            "url": "/learning/sports/ball-games/tennis-instructor"
-          },
-          {
-            "name": "ゴルフレッスン",
-            "url": "/learning/sports/ball-games/golf-instructor"
           }
         ]
       },
@@ -826,12 +812,12 @@
             "url": "/learning/language/chinese/chinese-teacher"
           },
           {
-            "name": "ウルドゥー語レッスン",
-            "url": "/learning/language/urdu/urdu-teacher"
-          },
-          {
             "name": "トルコ語レッスン",
             "url": "/learning/language/turkish/turkish-teacher"
+          },
+          {
+            "name": "ウルドゥー語レッスン",
+            "url": "/learning/language/urdu/urdu-teacher"
           },
           {
             "name": "ルーマニア語レッスン",
@@ -872,6 +858,20 @@
         ]
       },
       {
+        "name": "スポーツ",
+        "url": "/learning/sports",
+        "services": [
+          {
+            "name": "テニスレッスン",
+            "url": "/learning/sports/ball-games/tennis-instructor"
+          },
+          {
+            "name": "ゴルフレッスン",
+            "url": "/learning/sports/ball-games/golf-instructor"
+          }
+        ]
+      },
+      {
         "name": "アート・芸術",
         "url": "/learning/art",
         "services": [
@@ -904,12 +904,12 @@
             "url": "/learning/art/drawing/chalk-art-instructor"
           },
           {
-            "name": "イラストレッスン",
-            "url": "/learning/art/drawing/illustration-instructor"
-          },
-          {
             "name": "筆ペン・ペン習字・ボールペン字レッスン",
             "url": "/learning/art/calligraphy/pen-calligraphy-instructor"
+          },
+          {
+            "name": "イラストレッスン",
+            "url": "/learning/art/drawing/illustration-instructor"
           },
           {
             "name": "書道教室",
@@ -934,16 +934,16 @@
             "url": "/learning/training/zumba/zumba-instructor"
           },
           {
+            "name": "エアロビクスレッスン",
+            "url": "/learning/training/aerobics/aerobics-instructor"
+          },
+          {
             "name": "ヨガレッスン",
             "url": "/learning/training/yoga/yoga-instructor"
           },
           {
             "name": "パーソナルトレーニング",
             "url": "/learning/training/personal-training/personal-trainer"
-          },
-          {
-            "name": "エアロビクスレッスン",
-            "url": "/learning/training/aerobics/aerobics-instructor"
           },
           {
             "name": "水泳レッスン",
@@ -994,28 +994,36 @@
         "url": "/learning/music",
         "services": [
           {
-            "name": "ピアノレッスン",
-            "url": "/learning/music/music-instrumental-strings/piano-teacher"
-          },
-          {
             "name": "ドラムレッスン",
             "url": "/learning/music/music-instrumental-percussion/drumming-lessons"
+          },
+          {
+            "name": "ピアノレッスン",
+            "url": "/learning/music/music-instrumental-strings/piano-teacher"
           },
           {
             "name": "エレクトーンレッスン",
             "url": "/learning/music/music-instrumental-strings/electone-instructor"
           },
           {
-            "name": "尺八教室",
-            "url": "/learning/music/music-instrumental-wind/bamboo-flute-instructor"
-          },
-          {
             "name": "ユーフォニアムレッスン",
             "url": "/learning/music/music-instrumental-wind/euphonium-instructor"
           },
           {
+            "name": "コントラバスレッスン",
+            "url": "/learning/music/music-instrumental-wind/contrabass-instructor"
+          },
+          {
+            "name": "尺八教室",
+            "url": "/learning/music/music-instrumental-wind/bamboo-flute-instructor"
+          },
+          {
             "name": "クラリネットレッスン",
             "url": "/learning/music/music-instrumental-wind/clarinet-instructor"
+          },
+          {
+            "name": "ジャンべレッスン",
+            "url": "/learning/music/music-instrumental-percussion/djembe-instructor"
           },
           {
             "name": "エレキベースレッスン",
@@ -1026,28 +1034,12 @@
             "url": "/learning/music/music-instrumental-wind/french-horn-instructor"
           },
           {
-            "name": "ジャンべレッスン",
-            "url": "/learning/music/music-instrumental-percussion/djembe-instructor"
-          },
-          {
             "name": "エレキギターレッスン",
             "url": "/learning/music/music-instrumental-strings/electrical-guitar-instructor"
           },
           {
-            "name": "コントラバスレッスン",
-            "url": "/learning/music/music-instrumental-wind/contrabass-instructor"
-          },
-          {
             "name": "チェロレッスン",
             "url": "/learning/music/music-instrumental-strings/cello-instructor"
-          },
-          {
-            "name": "二胡教室",
-            "url": "/learning/music/music-instrumental-strings/erhu-instructor"
-          },
-          {
-            "name": "ソプラノサックスレッスン",
-            "url": "/learning/music/music-instrumental-wind/soprano-saxophone-instructor"
           },
           {
             "name": "作詞レッスン",
@@ -1064,6 +1056,14 @@
           {
             "name": "ハープレッスン",
             "url": "/learning/music/music-instrumental-strings/harp-instructor"
+          },
+          {
+            "name": "二胡教室",
+            "url": "/learning/music/music-instrumental-strings/erhu-instructor"
+          },
+          {
+            "name": "ソプラノサックスレッスン",
+            "url": "/learning/music/music-instrumental-wind/soprano-saxophone-instructor"
           },
           {
             "name": "DJレッスン",
@@ -1154,12 +1154,12 @@
             "url": "/learning/music/music-instrumental-wind/ocarina-instructor"
           },
           {
-            "name": "大正琴教室",
-            "url": "/learning/music/music-instrumental-strings/taisho-harp-instructor"
-          },
-          {
             "name": "作曲教室",
             "url": "/learning/music/creation/musiccompositioninstructor"
+          },
+          {
+            "name": "大正琴教室",
+            "url": "/learning/music/music-instrumental-strings/taisho-harp-instructor"
           },
           {
             "name": "マリンバレッスン",
@@ -1224,6 +1224,16 @@
   "暮らし": {
     "url": "/lifestyle",
     "sections": [
+      {
+        "name": "家族の見守り・サポート",
+        "url": "/lifestyle/family",
+        "services": [
+          {
+            "name": "遺品整理・生前整理",
+            "url": "/lifestyle/family/estate-items-liquidators/estate-items-liquidator"
+          }
+        ]
+      },
       {
         "name": "乗り物",
         "url": "/lifestyle/transportation",
@@ -1303,16 +1313,6 @@
         ]
       },
       {
-        "name": "家族の見守り・サポート",
-        "url": "/lifestyle/family",
-        "services": [
-          {
-            "name": "遺品整理・生前整理",
-            "url": "/lifestyle/family/estate-items-liquidators/estate-items-liquidator"
-          }
-        ]
-      },
-      {
         "name": "健康と美容",
         "url": "/lifestyle/health-and-beauty",
         "services": [
@@ -1321,12 +1321,12 @@
             "url": "/lifestyle/health-and-beauty/nail/manicurist"
           },
           {
-            "name": "ヘアアレンジ",
-            "url": "/lifestyle/health-and-beauty/hair/hair-stylist"
-          },
-          {
             "name": "ヘアメイク",
             "url": "/lifestyle/health-and-beauty/hair/makeup-artist"
+          },
+          {
+            "name": "ヘアアレンジ",
+            "url": "/lifestyle/health-and-beauty/hair/hair-stylist"
           },
           {
             "name": "ファッションアドバイザー",
@@ -1345,16 +1345,16 @@
             "url": "/lifestyle/health-and-beauty/health-care/nutritionist"
           },
           {
-            "name": "着物クリーニング",
-            "url": "/lifestyle/health-and-beauty/kimono/kimonocleaner"
-          },
-          {
             "name": "着付け",
             "url": "/lifestyle/health-and-beauty/kimono/kimono-dressing-master"
           },
           {
             "name": "着物仕立",
             "url": "/lifestyle/health-and-beauty/kimono/kimonotailoring"
+          },
+          {
+            "name": "着物クリーニング",
+            "url": "/lifestyle/health-and-beauty/kimono/kimonocleaner"
           }
         ]
       },
@@ -1381,6 +1381,16 @@
           {
             "name": "ペットセラピー・アロマ・ヨガ",
             "url": "/lifestyle/pets/pet-general/pet-aroma"
+          }
+        ]
+      },
+      {
+        "name": "家事代行",
+        "url": "/lifestyle/housekeeping",
+        "services": [
+          {
+            "name": "買物代行サービス",
+            "url": "/lifestyle/housekeeping/shopping/groceryshopper"
           }
         ]
       },
@@ -1417,16 +1427,6 @@
             "url": "/lifestyle/pc-electronics/pc-smartphone-tablet/radiorepairservice"
           }
         ]
-      },
-      {
-        "name": "家事代行",
-        "url": "/lifestyle/housekeeping",
-        "services": [
-          {
-            "name": "買物代行サービス",
-            "url": "/lifestyle/housekeeping/shopping/groceryshopper"
-          }
-        ]
       }
     ]
   },
@@ -1444,6 +1444,68 @@
         ]
       },
       {
+        "name": "アート・デザイン",
+        "url": "/business/art-and-design",
+        "services": [
+          {
+            "name": "3Dデザイン",
+            "url": "/business/art-and-design/design/3-d-designer"
+          },
+          {
+            "name": "デザイン",
+            "url": "/business/art-and-design/design/designer"
+          },
+          {
+            "name": "グラフィックデザイン",
+            "url": "/business/art-and-design/design/graphic-designer"
+          },
+          {
+            "name": "ポーセラーツ・ポーセリンペインティングレッスン",
+            "url": "/business/art-and-design/maker/porcelain-arts"
+          },
+          {
+            "name": "空間デザイン",
+            "url": "/business/art-and-design/space-design/space-designer"
+          },
+          {
+            "name": "アートディレクター",
+            "url": "/business/art-and-design/art-design/art-director"
+          },
+          {
+            "name": "ディスプレイデザイン",
+            "url": "/business/art-and-design/design/displaydesign"
+          },
+          {
+            "name": "プロダクトデザイン",
+            "url": "/business/art-and-design/design/product-designer"
+          },
+          {
+            "name": "華道家",
+            "url": "/business/art-and-design/space-design/flowerarrangementartist"
+          },
+          {
+            "name": "店舗デザイン",
+            "url": "/business/art-and-design/space-design/store-designer-producer"
+          },
+          {
+            "name": "商業デザイン",
+            "url": "/business/art-and-design/design/commercialdesigner"
+          },
+          {
+            "name": "設備設計",
+            "url": "/business/art-and-design/design/facilitydesigner"
+          },
+          {
+            "name": "看板制作",
+            "url": "/business/art-and-design/design/signwriting"
+          },
+          {
+            "name": "プリザーブドフラワーショップ",
+            "url": "/business/art-and-design/maker/preservedflowerspecialist"
+          }
+        ]
+      },
+      {
         "name": "オフィス業務全般",
         "url": "/business/office-work",
         "services": [
@@ -1456,12 +1518,12 @@
             "url": "/business/office-work/moving-office/mover-office"
           },
           {
-            "name": "営業・セールス",
-            "url": "/business/office-work/sales-activities/sales"
-          },
-          {
             "name": "企業向けコーチング",
             "url": "/business/office-work/human-resource/management-coaching"
+          },
+          {
+            "name": "営業・セールス",
+            "url": "/business/office-work/sales-activities/sales"
           },
           {
             "name": "事務作業代行サービス",
@@ -1540,68 +1602,6 @@
           {
             "name": "SEO業者",
             "url": "/business/tech/web/seo-specialist"
-          }
-        ]
-      },
-      {
-        "name": "アート・デザイン",
-        "url": "/business/art-and-design",
-        "services": [
-          {
-            "name": "3Dデザイン",
-            "url": "/business/art-and-design/design/3-d-designer"
-          },
-          {
-            "name": "デザイン",
-            "url": "/business/art-and-design/design/designer"
-          },
-          {
-            "name": "グラフィックデザイン",
-            "url": "/business/art-and-design/design/graphic-designer"
-          },
-          {
-            "name": "ポーセラーツ・ポーセリンペインティングレッスン",
-            "url": "/business/art-and-design/maker/porcelain-arts"
-          },
-          {
-            "name": "空間デザイン",
-            "url": "/business/art-and-design/space-design/space-designer"
-          },
-          {
-            "name": "アートディレクター",
-            "url": "/business/art-and-design/art-design/art-director"
-          },
-          {
-            "name": "ディスプレイデザイン",
-            "url": "/business/art-and-design/design/displaydesign"
-          },
-          {
-            "name": "プロダクトデザイン",
-            "url": "/business/art-and-design/design/product-designer"
-          },
-          {
-            "name": "華道家",
-            "url": "/business/art-and-design/space-design/flowerarrangementartist"
-          },
-          {
-            "name": "プリザーブドフラワーショップ",
-            "url": "/business/art-and-design/maker/preservedflowerspecialist"
-          },
-          {
-            "name": "店舗デザイン",
-            "url": "/business/art-and-design/space-design/store-designer-producer"
-          },
-          {
-            "name": "商業デザイン",
-            "url": "/business/art-and-design/design/commercialdesigner"
-          },
-          {
-            "name": "設備設計",
-            "url": "/business/art-and-design/design/facilitydesigner"
-          },
-          {
-            "name": "看板制作",
-            "url": "/business/art-and-design/design/signwriting"
           }
         ]
       },
@@ -1829,12 +1829,12 @@
             "url": "/events/large-event/dance-performer"
           },
           {
-            "name": "菓子職人・パティシエ",
-            "url": "/events/large-event/pastry-chef"
-          },
-          {
             "name": "キッチンカー・フードトラック",
             "url": "/events/large-event/food-truck"
+          },
+          {
+            "name": "菓子職人・パティシエ",
+            "url": "/events/large-event/pastry-chef"
           }
         ]
       },
@@ -1861,10 +1861,6 @@
             "url": "/events/photography/photographer-engagement"
           },
           {
-            "name": "コーポレートの写真撮影",
-            "url": "/events/photography/photographer-corporate"
-          },
-          {
             "name": "ベビーフォト・赤ちゃん写真撮影",
             "url": "/events/photography/photographer-baby-photos"
           },
@@ -1873,20 +1869,20 @@
             "url": "/events/photography/photographer-wedding"
           },
           {
-            "name": "家族写真・記念写真の写真撮影",
-            "url": "/events/photography/photographer-family-portrait"
-          },
-          {
             "name": "七五三の写真撮影",
             "url": "/events/photography/photographer-753-ceremony"
           },
           {
-            "name": "オーディション・宣材写真の写真撮影",
-            "url": "/events/photography/photographer-headshots"
-          },
-          {
             "name": "その他イベントの写真撮影",
             "url": "/events/photography/photographer-party-event"
+          },
+          {
+            "name": "家族写真・記念写真の写真撮影",
+            "url": "/events/photography/photographer-family-portrait"
+          },
+          {
+            "name": "オーディション・宣材写真の写真撮影",
+            "url": "/events/photography/photographer-headshots"
           },
           {
             "name": "マタニティフォト・写真撮影",
@@ -1895,6 +1891,10 @@
           {
             "name": "成人式の写真撮影",
             "url": "/events/photography/photographer-coming-of-age"
+          },
+          {
+            "name": "コーポレートの写真撮影",
+            "url": "/events/photography/photographer-corporate"
           }
         ]
       },

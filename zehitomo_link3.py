@@ -1,4 +1,6 @@
+import csv
 import json
+import os
 import time
 
 from playwright.sync_api import sync_playwright
@@ -20,7 +22,13 @@ SUBMIT_SEL = "button[data-test-id='request-submit']"
 NEXT_SEL = "button[data-test-id^='request-next']"
 BACK_SEL = "button:has-text('戻る')"
 EXISTING_REQUEST_SEL = "button[data-test-id='go-to-existing-request']"
-WAIT_AFTER_ADDRESS_MS = 60 * 1000
+WAIT_AFTER_ADDRESS_MS = 6* 1000
+
+APPLY_LIST_SEL = "ul[data-test-id='apply-list'] li"
+PRO_NAME_SEL = "[class*='header-pro-name']"
+NAME_GROUP_SEL = "[class*='avatar-icon-name-group']"
+LOCATION_SEL = "p[class*='ProProfileHeader-module__location']"
+CSV_FILE = "contractors.csv"
 
 
 def launch_browser(playwright):
@@ -63,7 +71,7 @@ def save_options(data, path=OPTIONS_FILE):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-def load_urls(path=SCRAPE_URLS_FILE): 
+def load_urls(path=SCRAPE_URLS_FILE):
     try:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
@@ -71,13 +79,90 @@ def load_urls(path=SCRAPE_URLS_FILE):
         return []
 
 
+def save_urls(urls, path=SCRAPE_URLS_FILE):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(urls, f, ensure_ascii=False, indent=2)
+
+
 def save_url(page, path=SCRAPE_URLS_FILE): # url ta save korbo ekta json file e 
     urls = load_urls(path)
     if page.url not in urls:
         urls.append(page.url)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(urls, f, ensure_ascii=False, indent=2)
+    save_urls(urls, path)
     print(f"Saved scraping url: {page.url}")
+
+
+def ensure_files():
+    if not os.path.exists(OPTIONS_FILE):
+        save_options({})
+    if not os.path.exists(SCRAPE_URLS_FILE):
+        save_urls([])
+
+
+def get_text(page, selector):
+    locator = page.locator(selector).first
+    if locator.count():
+        return locator.inner_text().strip()
+    return ""
+
+
+def scrape_contractors(page):
+    url = page.url
+    try:
+        page.wait_for_selector(APPLY_LIST_SEL, timeout=60000)
+    except Exception:
+        print(f"  no contractor list on {url}")
+        return []
+    page.wait_for_timeout(1500)
+
+    total = page.locator(APPLY_LIST_SEL).count()
+    print(f"  {total} contractors on {url}")
+    rows = []
+
+    for index in range(total):
+        page.goto(url, wait_until="domcontentloaded")
+        page.wait_for_selector(APPLY_LIST_SEL, timeout=60000)
+        page.wait_for_timeout(1500)
+
+        item = page.locator(APPLY_LIST_SEL).nth(index)
+        item.scroll_into_view_if_needed()
+        item.click()
+
+        try:
+            page.wait_for_selector(PRO_NAME_SEL, timeout=12000)
+        except Exception:
+            print(f"    {index + 1}/{total}: no profile, skipped")
+            continue
+
+        name = get_text(page, PRO_NAME_SEL)
+
+        group = page.locator(NAME_GROUP_SEL).first
+        if group.count():
+            group.click()
+            try:
+                page.wait_for_selector(LOCATION_SEL, timeout=10000)
+            except Exception:
+                pass
+
+        location = get_text(page, LOCATION_SEL)
+        rows.append((name, location))
+        print(f"    {index + 1}/{total}: {name} | {location}")
+
+    page.goto(url, wait_until="domcontentloaded")
+    return rows
+
+
+def append_csv(rows, path=CSV_FILE):
+    if not rows:
+        return
+    if os.path.exists(path):
+        with open(path, "a", newline="", encoding="utf-8") as f:
+            csv.writer(f).writerows(rows)
+    else:
+        with open(path, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.writer(f)
+            writer.writerow(["name", "location"])
+            writer.writerows(rows)
 
 
 def open_form(page, url):
@@ -183,7 +268,9 @@ def back(root, page):
         button.click()
         page.wait_for_timeout(900)
         return True
-    return False
+    page.go_back()
+    page.wait_for_timeout(2000)
+    return True
 
 
 def wait_for_existing_request(page, timeout_ms):
@@ -213,11 +300,13 @@ def fill_address(root, page, postal_code):
     
     page.wait_for_timeout(WAIT_AFTER_ADDRESS_MS) # 1 min wait korlam
     save_url(page)
+    append_csv(scrape_contractors(page))
     return True
 
 
 def save_combination(data, name, trail):
     save_options(data)
+    save_urls(load_urls())
     print(f"Saved combination: {name} > {trail or '(root)'}")
 
 
@@ -269,6 +358,7 @@ def explore_target(page, name, url, data):
 
 
 def main():
+    ensure_files()
     targets = load_targets()
     print(f"Loaded {len(targets)} services from {SECTIONS_FILE}")
 

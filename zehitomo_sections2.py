@@ -57,6 +57,10 @@ def get_page(context):
 
 def login_with_google(page):
     page.goto(SIGN_IN_URL, wait_until="domcontentloaded")
+    page.wait_for_timeout(4000)
+    if "sign-in" not in page.url:
+        print(f"Already logged in -> {page.url}")
+        return
     print("Log in manually with Google in the browser window...")
     page.wait_for_url(ACCOUNT_URL_GLOB, timeout=LOGIN_TIMEOUT_MS)
     print(f"Logged in -> {page.url}")
