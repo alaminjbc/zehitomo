@@ -2,3 +2,7 @@
 zehitomo-profile
 zehitomo_profile
 .DS_Store
+venv
+.venv312
+.env
+.env
